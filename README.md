@@ -1,0 +1,2 @@
+# KS_Azure900_Project
+Static_Website_Project
