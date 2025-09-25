@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Project Details — Azure Static Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Azure Project</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html" class="active">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Project Details</h1>
+    <p>Cloud-Based Static Website Hosting on Microsoft Azure</p>
+  </section>
+
+
+
+    <section>
+      <h2>Steps Followed</h2>
+      <ol>
+        <li>Created a Resource Group in Azure Portal.</li>
+        <li>Deployed a new Storage Account with Standard performance and LRS redundancy.</li>
+        <li>Enabled the Static Website feature, specifying <code>index.html</code> and <code>error.html</code>.</li>
+        <li>Uploaded all the required files (HTML, CSS, images) to the <code>$web</code> container.</li>
+        <li>Accessed the site using the Primary Endpoint provided by Azure.</li>
+      </ol>
+    </section>
+
+    <section>
+  <h2>Screenshots</h2>
+  <p>Below are some screenshots I captured while setting up the project:</p>
+  <div class="features">
+
+    <div class="card">
+  <img src="assets/sa_overview.png" alt="Azure Portal Storage Account Overview" class="screenshot">
+  <p>Storage Account creation in Azure Portal.</p>
+</div>
+
+<div class="card">
+  <img src="assets/static-website.png" alt="Azure Portal Static Website" class="screenshot">
+  <p>Static Website settings enabled.</p>
+</div>
+
+<div class="card">
+  <img src="assets/web-container.png" alt="Azure Portal Web Container" class="screenshot">
+  <p>Contents of the $web container.</p>
+</div>
+
+<div class="card">
+  <img src="assets/site-running.png" alt="Azure Portal Website Running" class="screenshot">
+  <p>Website running via Primary Endpoint.</p>
+</div>
+
+
+  </div>
+</section>
+
+        
